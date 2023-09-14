@@ -18,15 +18,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <ImageButton
                 android:id="@+id/btn_update_item_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/baseline_update_24" />
+                android:backgroundTint="@color/light_blue_shade"
+                app:srcCompat="@drawable/baseline_mode_edit_outline_24" />
+
             <ImageButton
                 android:id="@+id/btn_delete_item_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@color/teal_700"
                 app:srcCompat="@drawable/baseline_delete_24" />
 
 
